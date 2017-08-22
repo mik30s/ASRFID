@@ -1,0 +1,25 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "Webservice for ASRFID",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike168m/ASRFID.git"
+  },
+  "keywords": [
+    "RFID"
+  ],
+  "author": "Michael Osei & Chandler Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike168m/ASRFID/issues"
+  },
+  "homepage": "https://github.com/mike168m/ASRFID#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
