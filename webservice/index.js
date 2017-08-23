@@ -32,7 +32,7 @@ app.get('/', function(req, resp, next) {
 });
 
 // get all patient data for client side processing
-app.get('/patients_data', function(req, resp, next){
+app.get('/patient_data', function(req, resp, next){
 
 });
 
