@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/mike168m/ASRFID#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mysql": "^2.14.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
