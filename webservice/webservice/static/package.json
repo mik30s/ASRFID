@@ -15,6 +15,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "chart.js": "^2.6.0",
+    "moment": "^2.18.1",
     "progressbar.js": "^1.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

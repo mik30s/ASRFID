@@ -25,6 +25,7 @@ def get_latest_subjects(request):
 			'name': obj.name,
 			'description': obj.description,
 			'start_time': obj.start_time,
-			'end_time': obj.end_time
+			'end_time': obj.end_time,
+			'duration': obj.duration,
 		})
 	return JsonResponse(data, safe=False)
