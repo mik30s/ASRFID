@@ -29,4 +29,5 @@ dependencies {
     compile 'com.android.support:design:26.+'
     testCompile 'junit:junit:4.12'
     compile project(':alienapi')
+    compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
 }

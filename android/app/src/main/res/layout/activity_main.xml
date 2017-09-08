@@ -2,8 +2,10 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootCoordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_collapseParallaxMultiplier="1.0"
     tools:context="edu.tarleton.timestamp.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -15,20 +17,25 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@android:color/holo_green_dark"
+            android:minHeight="198dp"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <Switch
+            android:id="@+id/add_subject_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:textAlignment="textEnd"
+            tools:checked="true"
+            tools:text="Add Subject" />
 
     </android.support.design.widget.AppBarLayout>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="readTag"
-        android:text="READ TAG" />
-
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_main" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </android.support.design.widget.CoordinatorLayout>

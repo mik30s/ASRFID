@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+
+        <TextView
+            android:id="@+id/list_subject_id_label"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+        <TextView
+            android:id="@+id/list_subject_id"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/list_subject_time_label"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Time"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/list_subject_time"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+    </TableRow>
+</TableLayout>
